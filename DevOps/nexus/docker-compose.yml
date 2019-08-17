@@ -1,0 +1,5 @@
+registry:
+  restart: always
+  image: sonatype/nexus3:latest
+  ports:
+    - 8081:8081
